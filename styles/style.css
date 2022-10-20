@@ -4,6 +4,10 @@ body {
 }
 
 h1 {
-  color: red;
+  color: white;
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 90vh;
   font-family: monospace;
+  font-size: 35px;
 }
