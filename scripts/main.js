@@ -75,7 +75,7 @@ function init() {
   const bgTexture = new THREE.TextureLoader().load("./assets/bg.jpg");
   scene.background = bgTexture;
   //scene.background = new THREE.Color(0xa0a0a0);
-  scene.fog = new THREE.Fog(0xa0a0a0, 200, 1000);
+  scene.fog = new THREE.Fog(0xa0a0a0, 400, 1500);
 
   const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444);
   hemiLight.position.set(0, 200, 0);
@@ -121,7 +121,7 @@ function init() {
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.target.set(0, 100, 0);
   controls.minDistance = 50;
-  controls.maxDistance = 550;
+  controls.maxDistance = 900;
   controls.update();
 
   //GUI
