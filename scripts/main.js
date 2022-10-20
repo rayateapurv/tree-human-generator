@@ -1,3 +1,6 @@
+//using proctree.js library by supereggbert https://github.com/supereggbert/proctree.js
+//tree parameter code refereced from https://github.com/donmccurdy/glTF-Procedural-Trees
+
 import * as THREE from "three";
 
 import * as dat from "https://cdn.skypack.dev/dat.gui";
